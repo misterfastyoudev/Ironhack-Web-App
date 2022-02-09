@@ -1,5 +1,6 @@
-console.log('linked');
-document.getElementsByClassName('theBut').onclick = () => {
-    console.log('lol');
-};
-
+$(document).ready(function() {
+    $('#button').click(function() {
+      alert('This app is awesome!');
+    });
+  });
+  
